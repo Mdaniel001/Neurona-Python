@@ -38,7 +38,7 @@ model.fit(X, y, epochs=100, verbose=1)
 
 
 # Predicción: dado un vector de entrada, la red recomienda un plan de estudios
-nuevo_plan = np.array([[1, 0, 1, 0, 0]])  # Ejemplo de entrada (deseo tomar Calculo1 y Fisica1)
+nuevo_plan = np.array([[1, 0, 1, 0, 1]])  
 prediccion = model.predict(nuevo_plan)
 
 # Interpretación del resultado
